@@ -1,0 +1,7 @@
+string = input("Enter a sentence : ")
+word = input("Enter the word : ")
+n = string.count(word)
+newString = string.replace(word,"")
+print("%s %s is used  %d times in the sentence" %(string ,word ,n), end="\n\n")
+print("%s New sentence(removed %s) : " %(string, word))
+print("\t",newString)
